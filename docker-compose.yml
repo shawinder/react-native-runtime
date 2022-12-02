@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  expo-dev:
+    build: ./
+    image: react-native-runtime
+    container_name: react-native-container
+    volumes:
+      - ./code:/root/workspace

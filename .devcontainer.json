@@ -1,0 +1,11 @@
+{
+    "name": "expo-dev",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "expo-dev",
+    "workspaceFolder": "/root/workspace",
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [ 19000, 19001, 19002 ]
+}
