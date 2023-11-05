@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:20.5.0
 
 RUN mkdir -p /root/workspace /root/.vscode-server/extensions 
 
